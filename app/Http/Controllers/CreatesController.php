@@ -19,7 +19,7 @@ class CreatesController extends Controller
     		'name' => 'required',
     		'email' => 'required',
             'address' => 'required',
-            
+            'salary' => 'required'
     		]);
 
         if ($validator->fails()) {
